@@ -3,6 +3,9 @@ import ProjectCard from "./ProjectCard";
 import airQualityImg from "@/assets/project-air-quality.jpg";
 import predictiveImg from "@/assets/project-predictive.jpg";
 import churnImg from "@/assets/project-churn.jpg";
+
+const projects = [
+  {
     title: "Air Quality Data Analysis",
     period: "Sep 2025 – Nov 2025",
     bullets: [
