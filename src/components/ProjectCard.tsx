@@ -16,23 +16,10 @@ const ProjectCard = ({ title, period, bullets, techStack, image, github }: Proje
   <motion.div
     whileHover={{ scale: 1.02 }}
     transition={spring}
-    className="group rounded-2xl bg-card p-4 transition-shadow duration-200"
-    style={{
-      boxShadow:
-        "0 0 0 1px hsl(240 5% 90% / 0.7), 0 2px 4px hsl(240 10% 10% / 0.02), 0 8px 16px hsl(240 10% 10% / 0.02)",
-    }}
-    onMouseEnter={(e) => {
-      (e.currentTarget as HTMLDivElement).style.boxShadow =
-        "0 0 0 1px hsl(240 5% 90% / 0.9), 0 4px 8px hsl(240 10% 10% / 0.03), 0 16px 24px hsl(240 10% 10% / 0.04)";
-    }}
-    onMouseLeave={(e) => {
-      (e.currentTarget as HTMLDivElement).style.boxShadow =
-        "0 0 0 1px hsl(240 5% 90% / 0.7), 0 2px 4px hsl(240 10% 10% / 0.02), 0 8px 16px hsl(240 10% 10% / 0.02)";
-    }}
+    className="group rounded-2xl bg-card border border-border p-4 transition-shadow duration-200 hover:shadow-lg hover:shadow-accent/5"
   >
     <div
-      className="rounded-xl overflow-hidden mb-4 aspect-video bg-secondary flex items-center justify-center"
-      style={{ outline: "1px solid hsl(240 10% 10% / 0.08)", outlineOffset: "-1px" }}
+      className="rounded-xl overflow-hidden mb-4 aspect-video bg-secondary flex items-center justify-center border border-border"
     >
       <img src={image} alt={title} className="w-full h-full object-cover" />
     </div>
