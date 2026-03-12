@@ -41,14 +41,14 @@ const projects = [
 ];
 
 const WorkSection = () => (
-  <section id="work" className="py-24 px-6 container mx-auto">
+  <section id="projects" className="py-24 px-6 container mx-auto">
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
       transition={{ type: "spring", duration: 0.4, bounce: 0 }}
     >
-      <p className="label-caps mb-2">Selected Work</p>
+      <p className="label-caps mb-2">Portfolio</p>
       <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-12">Projects</h2>
     </motion.div>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
