@@ -21,7 +21,7 @@ import churnImg from "@/assets/project-churn.jpg";
       "Applied regression and classification algorithms; evaluated with accuracy, precision, recall, and RMSE.",
     ],
     techStack: "Python · Pandas · Scikit-learn · Matplotlib",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+    image: predictiveImg,
     github: "https://github.com/Amitbhardwaj001",
   },
   {
