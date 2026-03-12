@@ -32,7 +32,7 @@ import churnImg from "@/assets/project-churn.jpg";
       "Tracked experiments, logged parameters and metrics, and managed model versions using MLflow.",
     ],
     techStack: "Python · Scikit-learn · MLflow · Pandas",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+    image: churnImg,
     github: "https://github.com/Amitbhardwaj001",
   },
 ];
