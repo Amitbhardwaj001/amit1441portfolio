@@ -10,7 +10,7 @@ import churnImg from "@/assets/project-churn.jpg";
       "Created interactive dashboards in Power BI using DAX measures, slicers, and filters for dynamic exploration.",
     ],
     techStack: "Power BI · Power Query · DAX",
-    image: "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=800&q=80",
+    image: airQualityImg,
     github: "https://github.com/Amitbhardwaj001",
   },
   {
