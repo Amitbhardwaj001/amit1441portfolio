@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const links = [
-  { label: "Work", href: "#work" },
+  { label: "Projects", href: "#projects" },
+  { label: "DSA", href: "#dsa" },
   { label: "Skills", href: "#skills" },
   { label: "Certificates", href: "#certificates" },
   { label: "Contact", href: "#contact" },
