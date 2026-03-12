@@ -19,8 +19,7 @@ const ProjectCard = ({ title, period, bullets, techStack, image, github }: Proje
     className="group rounded-2xl bg-card border border-border p-4 transition-shadow duration-200 hover:shadow-lg hover:shadow-accent/5"
   >
     <div
-      className="rounded-xl overflow-hidden mb-4 aspect-video bg-secondary flex items-center justify-center"
-      style={{ outline: "1px solid hsl(240 10% 10% / 0.08)", outlineOffset: "-1px" }}
+      className="rounded-xl overflow-hidden mb-4 aspect-video bg-secondary flex items-center justify-center border border-border"
     >
       <img src={image} alt={title} className="w-full h-full object-cover" />
     </div>
