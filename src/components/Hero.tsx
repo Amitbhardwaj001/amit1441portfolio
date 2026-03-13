@@ -14,7 +14,7 @@ const Hero = () => (
         <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-2xl overflow-hidden border-2 border-border shadow-2xl shadow-accent/10">
           <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-transparent z-10" />
           <img
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+            src="amit.jpeg"
             alt="Amit Bhardwaj"
             className="w-full h-full object-cover"
           />
