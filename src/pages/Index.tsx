@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import WorkSection from "@/components/WorkSection";
 import DSASection from "@/components/DSASection";
 import SkillsSection from "@/components/SkillsSection";
+import ResumeSection from "@/components/ResumeSection";
 import CertificatesSection from "@/components/CertificatesSection";
 import EducationSection from "@/components/EducationSection";
 import ContactSection from "@/components/ContactSection";
