@@ -58,7 +58,7 @@ const EducationSection = () => (
         <div>
           <h3 className="font-display text-lg font-bold text-foreground">Shanti Niketan Public School</h3>
           <p className="text-sm text-muted-foreground">High School (10th) · 88.4%</p>
-          <p className="text-xs text-muted-foreground mt-1">Apr 2019 – Mar 2020 · Agra, U.P.</p>
+          <p className="text-xs text-muted-foreground mt-1">2019 – 2020 · Agra, U.P.</p>
         </div>
       </motion.div>
     </div>
